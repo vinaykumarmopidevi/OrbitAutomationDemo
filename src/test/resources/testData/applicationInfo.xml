@@ -1,5 +1,5 @@
 <ns1:applicationInfo>
-	<ns1:Info appURL="http://qa1.orbit8.com:8010/reporting/" browserName="Chrome" defaultPassword="admin" defaultUsername="admin">
+	<ns1:Info appURL="http://polaxianrnd-pc:9090/reporting/" browserName="Chrome" defaultPassword="admin" defaultUsername="admin">
 	</ns1:Info>
 	<ns1:InfoUser password="Orbit123" username="autouser2885">
 	</ns1:InfoUser>	
