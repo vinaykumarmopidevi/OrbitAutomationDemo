@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 46.766 sec <<< FAILURE! - in TestSuite
+embedScreenshot(com.orbit.reporting.automation.runner.RunCukesTest)  Time elapsed: 42.292 sec  <<< FAILURE!
+org.testng.TestNGException: 
+
+Method embedScreenshot requires 1 parameters but 0 were supplied in the @Configuration annotation.
+

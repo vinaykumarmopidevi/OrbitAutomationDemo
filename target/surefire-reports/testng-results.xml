@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[SignIn Action is successfully perfomred]]>
+    </line>
+    <line>
+      <![CDATA[Sign out is performed]]>
+    </line>
+    <line>
+      <![CDATA[SignIn Action is successfully perfomred]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="46348" started-at="2017-11-30T08:40:54Z" finished-at="2017-11-30T08:41:40Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.orbit.reporting.automation.runner.RunCukesTest@7ca48474]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="46348" started-at="2017-11-30T08:40:54Z" finished-at="2017-11-30T08:41:40Z">
+      <class name="com.orbit.reporting.automation.runner.RunCukesTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.orbit.reporting.automation.runner.RunCukesTest@7ca48474]" name="setup" is-config="true" duration-ms="7" started-at="2017-11-30T14:10:54Z" finished-at="2017-11-30T14:10:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.orbit.reporting.automation.runner.RunCukesTest@7ca48474]" name="openBrowser" is-config="true" duration-ms="3800" started-at="2017-11-30T14:10:54Z" finished-at="2017-11-30T14:10:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.orbit.reporting.automation.runner.RunCukesTest@7ca48474]" name="setUpClass" is-config="true" duration-ms="198" started-at="2017-11-30T14:10:58Z" finished-at="2017-11-30T14:10:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.orbit.reporting.automation.runner.RunCukesTest@7ca48474]" name="feature" duration-ms="42098" started-at="2017-11-30T14:10:58Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2017-11-30T14:11:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User management , Domain Creation and Report validation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[SignIn Action is successfully perfomred]]>
+            </line>
+            <line>
+              <![CDATA[Sign out is performed]]>
+            </line>
+            <line>
+              <![CDATA[SignIn Action is successfully perfomred]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.orbit.reporting.automation.runner.RunCukesTest@7ca48474]" name="tearDownClass" is-config="true" duration-ms="186" started-at="2017-11-30T14:11:40Z" finished-at="2017-11-30T14:11:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="FAIL" signature="embedScreenshot(cucumber.api.Scenario)[pri:0, instance:com.orbit.reporting.automation.runner.RunCukesTest@7ca48474]" name="embedScreenshot" is-config="true" duration-ms="0" started-at="2017-11-30T14:11:40Z" finished-at="2017-11-30T14:11:40Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method embedScreenshot requires 1 parameters but 0 were supplied in the @Configuration annotation.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method embedScreenshot requires 1 parameters but 0 were supplied in the @Configuration annotation.
+	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:191)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:127)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:376)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:84)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:201)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.TestRunner.afterRun(TestRunner.java:1012)
+	at org.testng.TestRunner.run(TestRunner.java:636)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- embedScreenshot -->
+        <test-method status="SKIP" signature="teardown()[pri:0, instance:com.orbit.reporting.automation.runner.RunCukesTest@7ca48474]" name="teardown" is-config="true" duration-ms="0" started-at="2017-11-30T14:11:40Z" finished-at="2017-11-30T14:11:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.orbit.reporting.automation.runner.RunCukesTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite1 -->
+</testng-results>

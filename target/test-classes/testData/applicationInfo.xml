@@ -1,0 +1,12 @@
+<ns1:applicationInfo>
+	<ns1:Info appURL="http://polaxianrnd-pc:9090/reporting/" browserName="Chrome" defaultPassword="admin" defaultUsername="admin">
+	</ns1:Info>
+	<ns1:InfoUser password="Orbit123" username="autouser2885">
+	</ns1:InfoUser>	
+	<ns1:InfoBusinessObject businessObject="Business4963Object">
+	</ns1:InfoBusinessObject>
+	<ns1:InfoGenerateReport private="http://polaxianrnd-pc:9090/reporting/?token=bd644899-2e2d-4201-8bef-ffead78e5b2c" public="http://polaxianrnd-pc:9090/reporting/home?token=c8aa6cc6-0f65-4ce4-b5bd-96a1023911bf">
+	</ns1:InfoGenerateReport>
+	<ns1:InfoReports reportName="">
+	</ns1:InfoReports>			
+</ns1:applicationInfo>

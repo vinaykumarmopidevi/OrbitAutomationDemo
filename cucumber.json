@@ -1,0 +1,255 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3921806516,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Add Data Source successfully",
+        "description": "",
+        "id": "data-source-crud-operation;add-data-source-successfully;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 680481441,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 862444729,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open orbit application website",
+            "match": {
+              "location": "SigninSignoutSteps.i_open_orbit_application_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5694165055,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I sign in username \"admin\" and password \"admin\" default credentials",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 20
+                },
+                {
+                  "val": "admin",
+                  "offset": 41
+                }
+              ],
+              "location": "SigninSignoutSteps.i_sign_in_username_and_password_default_credentials(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5184261456,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I navigate to \"DataSources\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "DataSources",
+                  "offset": 15
+                }
+              ],
+              "location": "UserMgmtSteps.i_navigate_to_Users_page(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2344322502,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on new button",
+            "match": {
+              "location": "DataSourcesSteps.i_click_on_new_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2280276859,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I entered the datasource name",
+            "match": {
+              "location": "DataSourcesSteps.i_entered_the_datasource_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2174500261,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I entered the \"apps\" db username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "apps",
+                  "offset": 15
+                }
+              ],
+              "location": "DataSourcesSteps.i_entered_the_db_username(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2156796496,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I entered the \"apps\" db password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "apps",
+                  "offset": 15
+                }
+              ],
+              "location": "DataSourcesSteps.i_entered_the_db_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2238087875,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I entered the \"iorb4.orbit8.com\" db hostname",
+            "match": {
+              "arguments": [
+                {
+                  "val": "iorb4.orbit8.com",
+                  "offset": 15
+                }
+              ],
+              "location": "DataSourcesSteps.i_entered_the_db_hostname(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2170462605,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I entered the \"1521\" db port",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1521",
+                  "offset": 15
+                }
+              ],
+              "location": "DataSourcesSteps.i_entered_the_db_port(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2174256660,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I entered the \"ebsdb\" db name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ebsdb",
+                  "offset": 15
+                }
+              ],
+              "location": "DataSourcesSteps.i_entered_the_db_name(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2158850333,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on Test Connection button",
+            "match": {
+              "location": "DataSourcesSteps.i_click_on_Test_Connection_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2085242972,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I read connection message and validated db connectiom",
+            "match": {
+              "location": "DataSourcesSteps.i_read_connection_message_and_validated_db_connectiom()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Data Source CRUD operation",
+    "description": "",
+    "id": "data-source-crud-operation",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/DataSources.feature"
+  }
+]
