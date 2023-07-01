@@ -14,8 +14,8 @@ Scenario: Verify Domain has been created successful
 	Then I navigate to "Reports" page 
 	And I clicked on New Report Button and choose the "Data Report" from Menu List 
 	And I open Business Object Window enter the Object name in textfield 
-	#And I drag and drop attributes and ran the report 
-	#And I Save report in folder 
+	And I drag and drop attributes and ran the report 
+	And I Save report in folder 
 	
 @Regression 
 Scenario: Verify data report export to excel successful 
